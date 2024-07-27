@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Souls Characters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Choose Your Character</h1>
+    <div id="character-options">
+        <div class="character" onclick="navigateToDetails('char-1-details.html')">Character 1</div>
+        <div class="character" onclick="navigateToDetails('char-2-details.html')">Character 2</div>
+        <div class="character" onclick="navigateToDetails('char-3-details.html')">Character 3</div>
+        <div class="character" onclick="navigateToDetails('char-4-details.html')">Character 4</div>
+    </div>
+
+    <script>
+        function navigateToDetails(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
